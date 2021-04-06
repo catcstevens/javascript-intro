@@ -66,6 +66,7 @@ const LOCAL_FORECAST = {
     console.log(z, x, y); // 1,2,4
 
 //Destructuring assignment to pass an object as a function's parameters
+// Useful when doing an API call to just get back the information you need, rather than a huge object
 const stats = {
     max: 56.78,
     standard_deviation: 4.34,
