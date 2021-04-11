@@ -36,10 +36,16 @@ addTenToNum(5);
 var str = window.str;
 
 console.log('1: ', hoisted);
+// undefined
 console.log('2: ', fruit);
+// banana
 console.log('3: ', value);
+// 15
 console.log('4: ' , vegetable);
+// carrot
 console.log('5: ', str);
+// Hello World
 console.log('6: ', ten);
+// reference error
 
 var hoisted = true;
