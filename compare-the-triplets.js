@@ -17,4 +17,13 @@ function compareTriplets(a, b) {
 
 }
 
-compareTriplets([5,6,7], [3,6,10])
+// compareTriplets([5,6,7], [3,6,10])
+
+function aVeryBigSum(ar) {
+    
+    let total=0;
+    for(let i in ar) { total += ar[i]; }
+    console.log(total)
+    }
+
+    aVeryBigSum([1000000001, 1000000002, 1000000003, 1000000004, 1000000005])
