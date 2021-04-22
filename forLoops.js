@@ -31,17 +31,17 @@ function loopOverArray(array){
     } console.log(counts)
 }
 
-// function loopOverArray(directions){
-//     let obj = {}
-//     for (let direction of directions){
-//         if(!obj[direction]){
-//             obj[direction] = 1
-//         } else {
-//             obj[direction]++
-//         }
-//     }
-//     return obj;
-// }
+function loopOverArray(directions){
+    let obj = {}
+    for (let direction of directions){
+        if(!obj[direction]){
+            obj[direction] = 1
+        } else {
+            obj[direction]++
+        }
+    }
+    return obj;
+}
 
 loopOverArray(["n", "s", "e", "e"])
 
